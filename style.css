@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #020202;
+}
+@media (max-width:320px){
+    .logo{
+        width: 10rem !important;
+    }
+}
+@media (max-width:320px){
+    .buynow1{
+        width: 80vw !important;
+    }
+}
+.rockstar-image{
+    width: 2rem;
+}
+.logo{
+    width: 14rem;
+}
+.navbar{
+    background-color: #020202;
+}
+.iconmenu .bi{
+    color: white;
+}
+.navbar-nav li a{
+    color: #d0d0d0;
+    transition: all ease 0.5s;
+}
+.navbar-nav li a:hover{
+    color: #ffffff;
+    border-bottom: 2px solid white;
+}
+.dropdown-menu{
+    background-color: #020202;
+}
+.dropdown-menu li a:hover{
+    background-color: #020202;
+    color: #ffffff;
+    border-bottom: 0px;
+    text-decoration: underline;
+}
+form button .btn{
+    font-weight: bold;
+    font-size: 50px;
+    transition: all ease 1s;
+}
+.bi{
+    color: white;
+}
+button{
+    background-color: #272727;
+}
+.card1{
+    background-color: black;
+}
+.card3{
+    background-image: url("images/gtback.avif");
+}
+.cardb1{
+    background: linear-gradient(rgba(205, 52, 52, .1),rgba(20, 17, 17, 0.1)),url("images/sanbg.png");
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb2{
+    background: linear-gradient(rgba(145, 51, 51, 0.1),rgba(20, 17, 17, 0.1)),url("images/LosSantos.png");
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb3{
+    background: linear-gradient(rgba(205, 52, 52, .1),rgba(20, 17, 17, 0.1)),url("images/criminal.png");
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb4{
+    background: linear-gradient(rgba(205, 52, 52, .1),rgba(20, 17, 17, 0.1)),url("images/contarct.png");
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb5{
+    background: linear-gradient(rgba(205, 52, 52, .1),rgba(20, 17, 17, 0.1)),url("images/race.png");
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb6{
+    background: url("images/dj.png"),linear-gradient(rgba(205, 52, 52, .5),rgba(20, 17, 17, 0.5));
+    height: 15rem;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: top left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardb1:hover,.cardb2:hover,.cardb3:hover,.cardb4:hover,.cardb5:hover,.cardb6:hover{
+    transform: scale(1.02);
+}
+.buynow1{
+    background: linear-gradient(to bottom, rgba(53, 16, 16, .7),rgba(0, 0, 0, 1)),url("images/gtback.avif");
+    background-size: cover;
+    width: 40vw; 
+    height: 60vh;
+}
+.platform li{
+    color: #ffffff;
+}
+.bi-twitch:hover,.bi-instagram:hover,.bi-twitter:hover,.bi-youtube:hover,.bi-facebook:hover{
+    color: #FCB016;
+    cursor: pointer;
+}
+footer {
+    padding: 50px 0;
+  }
+  
+footer h3 {
+    color: #343a40;
+    font-size: 18px;
+    margin-bottom: 20px;
+ }
+footer p {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 24px;
+}
+  
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+footer ul li {
+    margin-bottom: 10px;
+}
+  
+footer ul li a {
+    color: #6c757d;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #FCB016;
+}
+  
+@media (max-width: 767px) {
+    footer .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    footer .col-md-4 {
+      margin-bottom: 30px;
+    }
+}
+select option {
+    background-color: black;
+  }
+.end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.end label {
+    margin: 5px;
+    font-size: 1rem;
+}
+  
+@media only screen and (max-width: 768px) {
+    .end {
+      flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px){
+    .buynow1{
+        width: 40vh;
+        height: 60vh;
+    }
+}
+  
+
+
